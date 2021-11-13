@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.nav_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: firebrick;
+  box-shadow: 2px 2px 1.5px floralwhite;
+  line-height: 3rem;
+  padding: 0px 10px;
+  font-size: 24px;
+}
+ul,
+a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px 10px;
+  /* font-size: 24px; */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+h2 {
+  background-color: black;
+  margin: 2rem;
+  line-height: 50px;
+  padding: 1rem;
+  color: white;
+}
+.color {
+  padding: 5rem 1rem;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 20px;
+}
